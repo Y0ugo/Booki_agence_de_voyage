@@ -58,6 +58,34 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header Components***********/
+header {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-booki {
+    width: 70px;
+}
+
+.hebergements-link {
+    padding-right: 50px;
+}
+
+/****** Recherche ***********/
+
+.picto {
+    width: 20px;
+}
+
+
+/****** Filtres ***********/
+
+.filtre {
+    display: flex;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
