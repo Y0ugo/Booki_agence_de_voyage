@@ -28,7 +28,9 @@
           <img src="images/logo/Booki.png" class="logo-booki" alt="logo" />
         </a>
         <div class="link-section">
-          <a href="" class="hebergements-link">Hébergements</a>
+          <a href="" class="hebergements-link" [data-active="true" ]
+            >Hébergements</a
+          >
           <a href="" class="activites-link">Activités</a>
         </div>
       </header>
@@ -52,28 +54,40 @@
       </section>
 
       <!--------La section "Filtre" contenant les filtres et leur picto----------->
-      <section class="filtre">
-        <p>Filtres</p>
-        <div class="filtre-area">
-          <img src="images/pictogrammes/" class="picto" /><button>
-            Economique
-          </button>
-        </div>
-        <div class="filtre-area">
-          <img src="images/pictogrammes/" class="picto" /><button>
-            Familial
-          </button>
-        </div>
-        <div class="filtre-area">
-          <img src="images/pictogrammes/" class="picto" /><button>
-            Romantique
-          </button>
-        </div>
-        <div class="filtre-area">
-          <img src="images/pictogrammes/" class="picto" /><button>
-            Nos pépites
-          </button>
-        </div>
+      <section class="filters">
+        <h3>Filtres</h3>
+        <button class="filter-btn">
+          <img
+            src="images/pictogrammes/Billet.png"
+            alt="Économique"
+            class="filter-icon"
+          />
+          Économique
+        </button>
+        <button class="filter-btn">
+          <img
+            src="images/pictogrammes/Bonhomme.png"
+            alt="Familial"
+            class="filter-icon"
+          />
+          Familial
+        </button>
+        <button class="filter-btn">
+          <img
+            src="images/pictogrammes/Coeur.png"
+            alt="Romantique"
+            class="filter-icon"
+          />
+          Romantique
+        </button>
+        <button class="filter-btn highlight-btn">
+          <img
+            src="images/pictogrammes/Flamme.png"
+            alt="Nos pépites"
+            class="filter-icon"
+          />
+          Nos pépites
+        </button>
       </section>
 
       <section>
@@ -355,49 +369,54 @@
             <h2 class="section-title">Activités à Marseille</h2>
           </div>
           <div class="activites-cards">
-            <article class="card">
-              <img
-                src="./images/activites/reno-laithienne.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+            <a href="">
+              <article class="card">
+                <img
+                  src="./images/activites/reno-laithienne.jpg"
+                  alt="Image de la chambre d'hôtel montrant un lit"
+                />
 
-              <div class="card-txt">
-                <h3 class="card-title">Vieux Port</h3>
-              </div>
-            </article>
+                <div class="card-txt">
+                  <h3 class="card-title">Vieux Port</h3>
+                </div>
+              </article>
+            </a>
+            <a href="">
+              <article class="card">
+                <img
+                  src="./images/activites/paul-hermann.jpg"
+                  alt="Image de la chambre d'hôtel montrant un lit"
+                />
 
-            <article class="card">
-              <img
-                src="./images/activites/paul-hermann.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
+                <div class="card-txt">
+                  <h3 class="card-title">Fort de Pomègues</h3>
+                </div>
+              </article>
+            </a>
+            <a href="">
+              <article class="card">
+                <img
+                  src="./images/activites/kilyan-sockalingum.jpg"
+                  alt="Image de la chambre d'hôtel montrant un lit"
+                />
 
-              <div class="card-txt">
-                <h3 class="card-title">Fort de Pomègues</h3>
-              </div>
-            </article>
+                <div class="card-txt">
+                  <h3 class="card-title">Parc national des Calanques</h3>
+                </div>
+              </article>
+            </a>
+            <a href="">
+              <article class="card">
+                <img
+                  src="./images/activites/florian-wehde.jpg"
+                  alt="Image de la chambre d'hôtel montrant un lit"
+                />
 
-            <article class="card">
-              <img
-                src="./images/activites/kilyan-sockalingum.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-
-              <div class="card-txt">
-                <h3 class="card-title">Parc national des Calanques</h3>
-              </div>
-            </article>
-
-            <article class="card">
-              <img
-                src="./images/activites/florian-wehde.jpg"
-                alt="Image de la chambre d'hôtel montrant un lit"
-              />
-
-              <div class="card-txt">
-                <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
-              </div>
-            </article>
+                <div class="card-txt">
+                  <h3 class="card-title">Notre-Dame-de-la-Garde</h3>
+                </div>
+              </article>
+            </a>
           </div>
         </div>
       </main>
