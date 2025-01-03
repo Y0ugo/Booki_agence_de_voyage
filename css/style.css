@@ -138,6 +138,23 @@ header {
 .filtre {
     display: flex;
     margin-top: 50px;
+    width: 50%;
+    justify-content: space-around;
+    font-weight:bolder
+    
+}
+
+
+.filtre-area {
+    width: 100%;
+    border: solid 1px rgb(161, 161, 161);
+    border-radius: 40px;
+    display: flex;
+    
+}
+.filtre button{
+    all: unset;
+    
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
