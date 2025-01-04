@@ -163,8 +163,13 @@ header {
   }
 
 /****** Filtres ***********/
-
 .filters {
+    display: flex;
+}
+
+
+
+.filters-row {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -224,6 +229,7 @@ header {
 /****** Hebergements ***********/
 .hebergements {
     width: 65%;
+    
 }
 
 
@@ -284,6 +290,7 @@ header {
 /****** Populaires ***********/
 .populaires {
     width: 32%;
+   
 }
 
 .populaires-title {
@@ -342,7 +349,7 @@ header {
 
 .activites-cards {
     display: flex;
-   width: 96%;
+    width: 96%;
     justify-content: space-between;
     
 }
@@ -452,10 +459,96 @@ footer {
         font-size: 14px;
     }
 
-    
+    .activites .card {
+   
+        height: 270px;     
+    }
+
+    .activites-cards img {
+        height: 200px;
+    }
+
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
+  
+    .main-container {
+        margin: 0; /* Supprime toutes les marges */
+        padding: 0; /* Optionnel : enlève aussi les espacements internes */
+      }
+
+      .hebergements-and-populaires section {
+        border-radius: 0px;
+        box-sizing: border-box;
+        background-color: white;
+    }
+    .hebergements-and-populaires .populaires {
+        background-color: #F2F2F2;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filters {
+        display: flex;
+        flex-direction: column;
+    }
+    .filters-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hebergements {
+        width: 100%;
+        order: 2;
+      
+    }
+
+    
+    .hebergements-cards {
+        width: 100%;
+       display: flex;
+       flex-direction: column;
+        
+    }
+
+    .populaires {
+        order: 1;
+        
+    }
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+    .hebergements-cards a {
+        width: 100%;
+    }
+
+    .activites {
+        margin: 0 auto;
+        
+
+    }
+
+    .activites-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .activites-cards a {
+        width: 100%;
+        height: auto;
+     }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
