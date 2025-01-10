@@ -414,8 +414,8 @@ header {
 
 
 .activites-cards .card-title {
-    margin-top: 10px;
-    margin-bottom: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     margin-left: 10px;
 }
 
@@ -510,6 +510,8 @@ footer {
         font-size: 14px;
     }
 
+ 
+
     .activites .card {
    
         height: 250px;     
@@ -518,6 +520,8 @@ footer {
     .activites-cards img {
         height: 200px;
     }
+   
+  
 
 }
 
