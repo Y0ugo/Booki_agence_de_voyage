@@ -428,7 +428,7 @@ header {
 footer {
     
     display: flex;
-    
+    margin-top: 100px;
     background-color: #f2f2f2;
     padding: 10px 15px;
     font-family: 'Raleway', sans-serif;
@@ -520,6 +520,13 @@ footer {
     .activites-cards img {
         height: 200px;
     }
+    .activites-cards {
+        height: 320px;
+    }
+
+    footer {
+        margin-top: 50px;
+    }
    
   
 
@@ -604,6 +611,7 @@ footer {
         color: #0065fc;
         border-top: none;
         border-bottom: solid 3px #0065fc;
+        padding-bottom: 10px;
         width: 50%;
         text-align: center;    
     }
@@ -616,6 +624,7 @@ footer {
         justify-content: flex-end;
         text-align: center;
         border-bottom: solid 3px #F2F2F2;
+        padding-bottom: 10px;
     }
 
     .activites-link:hover {
@@ -713,9 +722,10 @@ footer {
     .activites-cards {
         display: flex;
         flex-direction: column;
+        height: 70em;
        
     }
-
+    
 
     .activites-cards a {
         width: 100%;
